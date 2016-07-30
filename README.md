@@ -12,5 +12,4 @@ npm run dev
 
 ## Links
 
-### promises
 [d3-hierarchy](https://github.com/d3/d3-hierarchy)
