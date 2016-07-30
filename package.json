@@ -1,0 +1,35 @@
+{
+  "name": "d3js-studies",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/suxxus-studies/d3js-hierarchy"
+  },
+  "author": "suxxus",
+  "license": "ISC",
+  "description": "module d3js (2D layout algorithms for visualizing hierarchical data)",
+  "scripts": {
+    "lint": "eslint --color  src || true",
+    "test": "NODE_PATH=src tape src/tests | tap-colorize",
+    "dev": "watch -p 'src/**/*.js' -c 'npm test & npm run lint'",
+    "check": "npm outdated --depth=0",
+    "update": "updtr"
+  },
+  "devDependencies": {
+    "eslint": "3.2.0",
+    "eslint-cli": "1.1.0",
+    "eslint-config-eslint": "3.0.0",
+    "istanbul": "0.4.4",
+    "tap-colorize": "1.2.0",
+    "tape": "4.6.0",
+    "updtr": "0.2.1",
+    "watch-cli": "0.2.1"
+  },
+  "keywords": [
+    "d3js",
+    "d3-hierarchy"
+  ],
+  "dependencies": {
+    "d3-hierarchy": "1.0.0"
+  }
+}
